@@ -108,6 +108,6 @@ input_df = scaler.transform(input_df)
               
 if st.button('PREDICT'):
     y_out=model.predict(input_df)
-    st.write(f' This room will cost you $',y_out[0])
+    st.write(f' This room will cost you $',int(y_out[0]))
               
         
