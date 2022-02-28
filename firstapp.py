@@ -10,7 +10,7 @@ st.write("# AIRBNB HOUSE PRICE PREDICT APP")
 model=pickle.load(open('model(rf).pkl','rb'))
 scaler=pickle.load(open('scaler.pkl','rb'))
 
-image = Image.open('HOUSES IMAGE.jfif')
+image = Image.open('AIR BNB HOUSING IMAGE.jpg')
 st.image(image)
 
 st.sidebar.header('User Input Parameters')
